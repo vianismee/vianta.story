@@ -613,8 +613,8 @@ video {
   margin-bottom: 100px;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mt-3 {
@@ -623,14 +623,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .flex {
@@ -797,10 +789,6 @@ video {
   border-top-right-radius: 100px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -823,24 +811,20 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-\[url\(\'\/img\/about\/about02\.jpg\'\)\] {
-  background-image: url('/img/about/about02.jpg');
-}
-
-.bg-\[url\(\'\/img\/about\/hand\.jpg\'\)\] {
-  background-image: url('/img/about/hand.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/gc30rkM7\/nathan-dumlao-5-BB-at-DT4o-A-unsplash\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/gc30rkM7/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg');
+.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
+  background-image: url('https://i.postimg.cc/05BpWpH8/hand.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.postimg\.cc\/MGm7dNg4\/about02\.jpg\'\)\] {
   background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/05BpWpH8/hand.jpg');
+.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/gc30rkM7\/nathan-dumlao-5-BB-at-DT4o-A-unsplash\.jpg\'\)\] {
+  background-image: url('https://i.postimg.cc/gc30rkM7/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/photos\.fife\.usercontent\.google\.com\/pw\/AP1GczOWs26rWheBZaxUFymzfrzkmKJ89ilY_PBwvCB3z-sEA2wSDSBMHjaL\=w682-h911-s-no-gm\?authuser\=0\'\)\] {
+  background-image: url('https://photos.fife.usercontent.google.com/pw/AP1GczOWs26rWheBZaxUFymzfrzkmKJ89ilY_PBwvCB3z-sEA2wSDSBMHjaL=w682-h911-s-no-gm?authuser=0');
 }
 
 .bg-cover {
