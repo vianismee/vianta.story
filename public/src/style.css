@@ -625,6 +625,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -687,6 +695,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
 }
 
 .grid-cols-2 {
@@ -819,8 +831,16 @@ video {
   background-image: url('/img/about/hand.jpg');
 }
 
-.bg-\[url\(\'\/img\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\'\)\] {
-  background-image: url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
+.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/gc30rkM7\/nathan-dumlao-5-BB-at-DT4o-A-unsplash\.jpg\'\)\] {
+  background-image: url('https://i.postimg.cc/gc30rkM7/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/MGm7dNg4\/about02\.jpg\'\)\] {
+  background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
+  background-image: url('https://i.postimg.cc/05BpWpH8/hand.jpg');
 }
 
 .bg-cover {
