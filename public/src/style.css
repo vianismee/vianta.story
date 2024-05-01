@@ -612,8 +612,8 @@ video {
   margin-bottom: 100px;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .mt-3 {
@@ -628,6 +628,10 @@ video {
   display: inline-block;
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
+>>>>>>> main
 .flex {
   display: flex;
 }
@@ -644,6 +648,13 @@ video {
   aspect-ratio: 3/4;
 }
 
+<<<<<<< HEAD
+=======
+.h-3 {
+  height: 0.75rem;
+}
+
+>>>>>>> main
 .h-\[200px\] {
   height: 200px;
 }
@@ -664,6 +675,14 @@ video {
   height: 100vh;
 }
 
+<<<<<<< HEAD
+=======
+.w-3 {
+  width: 0.75rem;
+}
+
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
+>>>>>>> main
 .w-\[1700px\] {
   width: 1700px;
 }
@@ -676,10 +695,21 @@ video {
   width: 100%;
 }
 
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-not-allowed {
   cursor: not-allowed;
 }
 
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -798,18 +828,24 @@ video {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/05BpWpH8/hand.jpg');
+.bg-\[url\(\'\/img\/about\/about02\.jpg\'\)\] {
+  background-image: url('/img/about/about02.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.postimg\.cc\/MGm7dNg4\/about02\.jpg\'\)\] {
   background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
 }
 
+<<<<<<< HEAD
 .bg-\[url\(\'https\:\/\/ibb\.co\/0fZpmnT\'\)\] {
   background-image: url('https://ibb.co/0fZpmnT');
+=======
+.bg-\[url\(\'\/img\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\'\)\] {
+  background-image: url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
+>>>>>>> main
 }
 
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
 .bg-cover {
   background-size: cover;
 }
