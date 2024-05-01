@@ -625,6 +625,11 @@ video {
   margin-top: 1.25rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
 .flex {
   display: flex;
 }
@@ -641,12 +646,8 @@ video {
   aspect-ratio: 3/4;
 }
 
-.h-12 {
-  height: 3rem;
-}
-
-.h-7 {
-  height: 1.75rem;
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-\[200px\] {
@@ -669,10 +670,11 @@ video {
   height: 100vh;
 }
 
-.w-7 {
-  width: 1.75rem;
+.w-3 {
+  width: 0.75rem;
 }
 
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
 .w-\[1700px\] {
   width: 1700px;
 }
@@ -689,10 +691,21 @@ video {
   width: 100%;
 }
 
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-not-allowed {
   cursor: not-allowed;
 }
 
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -789,10 +802,6 @@ video {
   border-top-right-radius: 100px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -819,14 +828,15 @@ video {
   background-image: url('/img/about/about02.jpg');
 }
 
-.bg-\[url\(\'\/img\/about\/hand\.jpg\'\)\] {
-  background-image: url('/img/about/hand.jpg');
+.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/MGm7dNg4\/about02\.jpg\'\)\] {
+  background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
 }
 
 .bg-\[url\(\'\/img\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\'\)\] {
   background-image: url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
 }
 
+>>>>>>> 6e3b552d28769b47bd5b30ac00a9a7d416a6f4c4
 .bg-cover {
   background-size: cover;
 }
