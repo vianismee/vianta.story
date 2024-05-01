@@ -558,6 +558,10 @@ video {
   position: static;
 }
 
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
 }
@@ -584,11 +588,6 @@ video {
 
 .row-start-2 {
   grid-row-start: 2;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 .mx-auto {
@@ -625,6 +624,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -639,14 +642,6 @@ video {
 
 .aspect-\[3\/4\] {
   aspect-ratio: 3/4;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-7 {
-  height: 1.75rem;
 }
 
 .h-\[200px\] {
@@ -669,16 +664,8 @@ video {
   height: 100vh;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
 .w-\[1700px\] {
   width: 1700px;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 .w-\[500px\] {
@@ -819,12 +806,8 @@ video {
   background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
 }
 
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/gc30rkM7\/nathan-dumlao-5-BB-at-DT4o-A-unsplash\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/gc30rkM7/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/photos\.fife\.usercontent\.google\.com\/pw\/AP1GczOWs26rWheBZaxUFymzfrzkmKJ89ilY_PBwvCB3z-sEA2wSDSBMHjaL\=w682-h911-s-no-gm\?authuser\=0\'\)\] {
-  background-image: url('https://photos.fife.usercontent.google.com/pw/AP1GczOWs26rWheBZaxUFymzfrzkmKJ89ilY_PBwvCB3z-sEA2wSDSBMHjaL=w682-h911-s-no-gm?authuser=0');
+.bg-\[url\(\'https\:\/\/ibb\.co\/0fZpmnT\'\)\] {
+  background-image: url('https://ibb.co/0fZpmnT');
 }
 
 .bg-cover {
