@@ -18,15 +18,13 @@
     <!-- End Georgia -->
     <!-- import style tailwindcss -->
     <link rel="stylesheet" href="./src/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/css/pagedone.css"/>
-    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>VIANTA : Story about Vian & Vita</title>
 </head>
 <body class="bg-slate-200">
 <!-- Cover -->
-    <section class="h-screen flex justify-center place-items-end bg-[url('https://i.postimg.cc/gc30rkM7/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg')] bg-cover bg-fixed bg-top grayscale">
+    <section class="h-screen flex justify-center place-items-end bg-[url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg')] bg-cover bg-fixed bg-top grayscale">
         <div class="space-y-7 text-center object-center text-white mx-auto mb-[100px]">
-            <img src="https://i.postimg.cc/YSDNmVZw/white.png" alt="" class="mx-auto mb-[100px]">
+            <img src="/svg/WHITE.svg" alt="" class="mx-auto mb-[100px]">
             <h1 class="font-bold text-5xl font-playfairDisplay">Welcome to Our <span class="italic"> Story </span></h1>
             <p class="text-3xl md:text-2xl font-georgia font-thin">Made with love, We <span class="italic font-playfairDisplay">belive</span> true <span class="italic font-playfairDisplay">love</span> is real</p>
             <button class="font-bold py-3 px-5 font-lato outline outline-white outline-2 rounded-md hover:bg-white hover:text-black hover:duration-500"> <a href="#about">READ OUR STORY</a></button>
@@ -34,27 +32,23 @@
     </section>
 <!-- Cover End -->
 <!-- Navigation Bar -->
-    <nav class="sticky top-4 mt-3 w-[1700px] p-5 backdrop-blur-md bg-white/50 lg:flex lg:items-center lg:justify-between lg:mx-auto rounded-full border-2 border-inherit"> <!-- "Sticky" make a nvbar stay on top after cover scroll-->
+    <nav class="sticky top-4 mt-3 w-[1700px] p-5 backdrop-blur-md bg-white/50 lg:flex lg:items-center lg:justify-between lg:mx-auto rounded-full border border-2 border-inherit"> <!-- "Sticky" make a nvbar stay on top after cover scroll-->
         <div class="flex justify-center items-center">
-            <img src="https://i.postimg.cc/4dn5LZVd/black.png" alt="" class="h-[40px] mx-auto"> 
-            <h1 class="font-playfairDisplay font-bold text-center text-3xl ml-2">VIANTA</h1>
+            <img src="/svg/BLACK.svg" alt="" class="h-[40px] mx-auto"> 
+            <h1 class="font-playfairDisplay font-bold text-center text-3xl ml-4">VIANTA</h1>
         </div>
         <ul class="font-lato text-sm font-bold md:flex md:items-center md:justify-center space-x-4">
             <li href=""><a href="#about">ABOUT US</a></li>
-            <li href=""><a href="#history" class="">HISTORY</a></li>
+            <li href=""><a href="#history" class="">HOSTORY</a></li>
             <li href=""><a href="#galery" class="">GALERY</a></li>
         </ul>
-        <div class="relative inline-block">
-            <button data-tooltip-target="bottom-tooltip" class="items-center font-bold py-2 text-sm px-4 font-lato outline outline-black outline-2 rounded-full hover:bg-white hover:text-black hover:duration-500 cursor-not-allowed">
+        <div class="lg:tooltip-bottom" data-tip="Masih Belum">
+            <button class="items-center font-bold py-2 text-sm px-4 font-lato outline outline-black outline-2 rounded-full hover:bg-white hover:text-black hover:duration-500 cursor-not-allowed">
                 <span class="inline-flex items-center">
                     <span class="text-sm font-extrabold">WEDDING</span>
-                    <svg class="self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-heart"><path d="M3 10h18V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7"/><path d="M8 2v4"/><path d="M16 2v4"/><path d="M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"/></svg>
+                    <img src="/svg/ring.svg" alt="" class="self-center h-7 w-7 mx-2">
                 </span>
             </button>
-            <div class="absolute top-full invisible left-1/2 z-20 mt-3 border border-gray-300 -translate-x-1/2 whitespace-nowrap rounded-md bg-white py-2 px-4 text-xs text-gray-800 font-medium transition-opacity duration-300 shadow-[0px_-12px_30px_-4px_rgba(16,24,40,0.08)]" role="tooltip" id="bottom-tooltip">
-                <span class="absolute -top-1.5 left-1/2 -z-10 h-3 w-3  border-t border-l rounded-sm border-gray-300 -translate-x-1/2 rotate-45 bg-white"></span>
-                Doakan agar disegerakan!
-            </div>
         </div>
     </nav>
 <!-- End Navigation Bar -->
@@ -77,7 +71,7 @@
                         <p class="mt-5 font-lato font-medium text-lg">Halo semua, Kenalin aku <span class="italic font-playfairDisplay font-bold underline decoration-pink-800">Vian</span> seorang pemuda yang memiliki banyak sekali hobi. Salah satu hobi aku yaitu design grafis. Dengan membuat website ini aku ingin mengabadikan moment bersama my biggest partner in crime <span class="font-bold italic underline font-playfairDisplay">Vita</span>.</p>
                     </article>     
                     <div class="pt-5 h-full place-self-end row-start-2 flex" >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        <img src="/svg/Instagram.svg" alt="" class="h-12">
                     </div>
                 </div>
             </div>
@@ -86,10 +80,10 @@
             <div class="h-full w-full col-start-2 text-right justify-center place-items-center">
                 <div class="h-full flex justify-center space-x-4">
                     <div class="h-[300px] aspect-[3/4] place-self-start rounded-tl-[100px] overflow-hidden shadow-2xl">
-                       <div class="h-full w-full bg-[url('https://i.postimg.cc/MGm7dNg4/about02.jpg')] bg-cover bg-center"></div> 
+                       <div class="h-full w-full bg-[url('/img/about/about02.jpg')] bg-cover bg-center"></div> 
                     </div>
                     <div class="h-[300px] aspect-[3/4] place-self-end rounded-tr-[100px] overflow-hidden">
-                        <div class="h-full w-full bg-[url('https://i.postimg.cc/05BpWpH8/hand.jpg')] bg-cover bg-top"></div> 
+                        <div class="h-full w-full bg-[url('/img/about/hand.jpg')] bg-cover bg-top"></div> 
                      </div>
                 </div>
             </div>
@@ -97,12 +91,12 @@
         <!-- Vita Permata S. -->
             <div class="h-full w-full bg-slate-200 col-start-3 text-left flex justify-start place-items-end p-10">
                 <div class="grid grid-rows-2 place-items-start">
-                    <article class="h-full text-wrap row-start-1">
+                    <article class="h-full w-[400px] text-wrap row-start-1">
                         <h1 class="font-playfairDisplay font-bold text-3xl">Vita <span class="italic">Permata</span> Sari</h1>
                         <p class="mt-5 font-lato font-medium text-lg">Halo semua, Kenalin aku <span class="italic font-playfairDisplay font-bold underline decoration-pink-800">Vian</span> seorang pemuda yang memiliki banyak sekali hobi. Salah satu hobi aku yaitu design grafis. Dengan membuat website ini aku ingin mengabadikan moment bersama my biggest partner in crime <span class="font-bold italic underline font-playfairDisplay">Vita</span>.</p>
                     </article>     
                     <div class="pt-5 h-full place-self-start row-start-2 flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        <img src="/svg/Instagram.svg" alt="" class="h-12">
                     </div>
                 </div>
             </div>
@@ -120,8 +114,7 @@
             </article>
         </div>
     </section>
-<!-- End History --> 
-<script src="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/js/pagedone.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- End History -->
+
 </body>
 </html>
