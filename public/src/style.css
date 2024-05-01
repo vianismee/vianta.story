@@ -586,11 +586,6 @@ video {
   grid-row-start: 2;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -613,8 +608,8 @@ video {
   margin-bottom: 100px;
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .mt-3 {
@@ -623,14 +618,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .flex {
@@ -653,10 +640,6 @@ video {
   height: 3rem;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
 .h-\[200px\] {
   height: 200px;
 }
@@ -677,10 +660,6 @@ video {
   height: 100vh;
 }
 
-.w-7 {
-  width: 1.75rem;
-}
-
 .w-\[1700px\] {
   width: 1700px;
 }
@@ -695,10 +674,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.cursor-not-allowed {
-  cursor: not-allowed;
 }
 
 .grid-cols-2 {
@@ -797,10 +772,6 @@ video {
   border-top-right-radius: 100px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -833,14 +804,6 @@ video {
 
 .bg-\[url\(\'https\:\/\/i\.postimg\.cc\/gc30rkM7\/nathan-dumlao-5-BB-at-DT4o-A-unsplash\.jpg\'\)\] {
   background-image: url('https://i.postimg.cc/gc30rkM7/nathan-dumlao-5-BB-at-DT4o-A-unsplash.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/MGm7dNg4\/about02\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/05BpWpH8/hand.jpg');
 }
 
 .bg-cover {

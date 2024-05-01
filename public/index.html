@@ -39,15 +39,15 @@
         </div>
         <ul class="font-lato text-sm font-bold md:flex md:items-center md:justify-center space-x-4">
             <li href=""><a href="#about">ABOUT US</a></li>
-            <li href=""><a href="#history" class="">HOSTORY</a></li>
+            <li href=""><a href="#history" class="">HISTORY</a></li>
             <li href=""><a href="#galery" class="">GALERY</a></li>
         </ul>
-        <button class="items-center font-bold py-2 text-sm px-4 font-lato outline outline-black outline-2 rounded-full hover:bg-white hover:text-black hover:duration-500 cursor-not-allowed">
+        <button class="items-center font-bold py-2 text-sm px-4 font-lato outline outline-black outline-2 rounded-full hover:bg-white hover:text-black hover:duration-500" disabled.>
             <span class="inline-flex items-center">
                 <span class="text-sm font-extrabold">WEDDING</span>
-                <img src="https://i.postimg.cc/nrBqgLzH/ring.png" alt="" class="self-center h-7 w-7 mx-2">
-            </span>
-        </button>
+                    <svg class="self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-heart"><path d="M3 10h18V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7"/><path d="M8 2v4"/><path d="M16 2v4"/><path d="M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"/></svg>
+                </span>
+            </button>
     </nav>
 <!-- End Navigation Bar -->
 <!-- About Us -->
@@ -78,10 +78,10 @@
             <div class="h-full w-full col-start-2 text-right justify-center place-items-center">
                 <div class="h-full flex justify-center space-x-4">
                     <div class="h-[300px] aspect-[3/4] place-self-start rounded-tl-[100px] overflow-hidden shadow-2xl">
-                       <div class="h-full w-full bg-[url('https://i.postimg.cc/MGm7dNg4/about02.jpg')] bg-cover bg-center"></div> 
+                       <div class="h-full w-full bg-[url('/img/about/about02.jpg')] bg-cover bg-center"></div> 
                     </div>
                     <div class="h-[300px] aspect-[3/4] place-self-end rounded-tr-[100px] overflow-hidden">
-                        <div class="h-full w-full bg-[url('https://i.postimg.cc/05BpWpH8/hand.jpg')] bg-cover bg-top"></div> 
+                        <div class="h-full w-full bg-[url('/img/about/hand.jpg')] bg-cover bg-top"></div> 
                      </div>
                 </div>
             </div>
@@ -112,7 +112,8 @@
             </article>
         </div>
     </section>
-<!-- End History -->
-
+<!-- End History --> 
+<script src="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/js/pagedone.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
