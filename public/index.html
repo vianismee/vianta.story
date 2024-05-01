@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth" data-themes="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
 </head>
 <body class="bg-slate-200">
 <!-- Cover -->
-    <section class="h-screen flex justify-center place-items-end bg-[url('https://ibb.co/0fZpmnT')] bg-cover bg-fixed bg-top grayscale">
+    <section class="h-screen flex justify-center place-items-end bg-[url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg')] bg-cover bg-fixed bg-top grayscale">
         <div class="space-y-7 text-center object-center text-white mx-auto mb-[100px]">
             <img src="https://i.postimg.cc/YSDNmVZw/white.png" alt="" class="mx-auto mb-[100px]">
             <h1 class="font-bold text-5xl font-playfairDisplay">Welcome to Our <span class="italic"> Story </span></h1>
@@ -34,7 +34,7 @@
     </section>
 <!-- Cover End -->
 <!-- Navigation Bar -->
-    <nav class="sticky top-4 mt-3 w-[1700px] p-5 backdrop-blur-md bg-white/50 lg:flex lg:items-center lg:justify-between lg:mx-auto rounded-full border-2 border-inherit"> <!-- "Sticky" make a nvbar stay on top after cover scroll-->
+    <nav class="sticky top-4 mt-3 w-[1700px] p-5 backdrop-blur-md bg-white/50 lg:flex lg:items-center lg:justify-between lg:mx-auto rounded-full border-2 border-slate-100 z-30 shadow-md"> <!-- "Sticky" make a nvbar stay on top after cover scroll-->
         <div class="flex justify-center items-center">
             <img src="https://i.postimg.cc/4dn5LZVd/black.png" alt="" class="h-[40px] mx-auto"> 
             <h1 class="font-playfairDisplay font-bold text-center text-3xl ml-2">VIANTA</h1>
@@ -119,8 +119,58 @@
                 <p class="font-lato text-2xl font-medium my-6"> </p>
             </article>
         </div>
+        <div class="h-full overflow-y-scroll scrollbar-hide"> <!-- Scrollbar Hide with plugin -->
+            <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                <li>
+                  <div class="timeline-middle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                  </div>
+                  <div class="timeline-start md:text-end mb-10">
+                    <time class="font-lato font-bold italic">Agustus 2020</time>
+                    <article class="text-pretty">
+                        <div class="text-2xl font-playfairDisplay mt-1 mb-3 font-bold"><span class="italic">First</span> Conversation</div>
+                        <div class="font-lato font-medium mb-5 border-2 p-4 rounded-2xl">
+                            Tepat di tanggal 11 Agustus 2020 kami memulai obrolan melalui <span class="italic font-playfairDisplay font-semibold">direct massage</span> instagram, dari sini kita memang belum saling mengenal satu sama lain. Kita hanya sekedar tau karena kita satu tempat sekolah.
+                        </div>
+                    </article> 
+                  </div>
+                  <hr/>
+                </li>
+                <li>
+                  <hr />
+                  <div class="timeline-middle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                  </div>
+                  <div class="timeline-end mb-10">
+                    <time class="font-lato font-bold italic">2020</time>
+                    <article class="text-pretty">
+                        <div class="text-2xl font-playfairDisplay mb-2 font-bold"><span class="italic">First</span> Conversation</div>
+                        <div class="font-lato font-medium mb-5 border-2 p-4 rounded-2xl">
+                            Tepat di tanggal 11 Agustus 2020 kami memulai obrolan melalui <span class="italic font-playfairDisplay font-semibold">direct massage</span> instagram, dari sini kita memang belum saling mengenal satu sama lain. Kita hanya sekedar tau karena kita satu tempat sekolah.
+                        </div>
+                    </article>
+                  </div>
+                  <hr />
+                </li>
+            </ul>
+        </div>
     </section>
-<!-- End History --> 
+<!-- End History -->
+    <section class="relative">
+        <div class="w-full h-[500px] flex items-center justify-center">
+            <div class="stack">
+                <div class="text-center border border-base-content card w-[200px] bg-base-100">
+                  <div class="card-body">Chevian Berliandi Sahputra</div>
+                </div> 
+                <div class="text-center border border-base-content card w-[200px] bg-base-100">
+                  <div class="card-body">B</div>
+                </div> 
+                <div class="text-center border border-base-content card w-[200px] bg-base-100">
+                  <div class="card-body">C</div>
+                </div>
+            </div>
+        </div>
+    </section>
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/js/pagedone.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
