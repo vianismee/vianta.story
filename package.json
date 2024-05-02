@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "lucide": "^0.376.1",
+    "pagedone": "^1.1.2",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
