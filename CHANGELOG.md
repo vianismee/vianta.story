@@ -18,7 +18,7 @@ Upcoming:
 - Gallery
 - Article Page on `/public/page/..`
 
-> Repository branch @main Update #6 commit [d77b0a9](https://github.com/vianismee/viantastory.github.io/commit/d77b0a92e8cb5b4b3496df4bb404c9f3b201e6d9)
+> Repository branch @main Update #6 commit [e19629c](https://github.com/vianismee/viantastory.github.io/commit/e19629c50366b6db35a2d581ba38b5d6e985e289)
 > Kamis, 02/05/2024 -- @vianismee
 
 ---
