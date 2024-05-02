@@ -2,7 +2,24 @@
 
 ---
 
-Version: 0.0.2 (Unrelease Main)
+Version: 0.1.4.0 (Unrelease Main)
+
+---
+
+#### Release Main Version 0.1.4.0
+Content Update:
+- History content update "The Conjuring Date"
+- Add file `img/history/`
+
+Fitur Update:
+- Add audio autoplay ❌ \\ Karena di refresh audio tidak keluar next time
+
+Upcoming:
+- Gallery
+- Article Page on `/public/page/..`
+
+> Repository branch @main Update #6 commit [d77b0a9](https://github.com/vianismee/viantastory.github.io/commit/d77b0a92e8cb5b4b3496df4bb404c9f3b201e6d9)
+> Kamis, 02/05/2024 -- @vianismee
 
 ---
 
@@ -10,6 +27,7 @@ Version: 0.0.2 (Unrelease Main)
 Merge @pagedone to @main
 > Repository branch @main Update #5 commit [d77b0a9](https://github.com/vianismee/viantastory.github.io/commit/d77b0a92e8cb5b4b3496df4bb404c9f3b201e6d9)
 > Kamis, 02/05/2024 -- @deviceKantor
+
 ---
 
 #### Update **Version 0.0.3.0 - @pagedone (Unrelease)**

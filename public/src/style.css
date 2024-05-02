@@ -822,12 +822,12 @@ html {
   width: 1.25rem;
 }
 
-.w-\[1780px\] {
-  width: 1780px;
+.w-\[1700px\] {
+  width: 1700px;
 }
 
-.w-\[300px\] {
-  width: 300px;
+.w-\[350px\] {
+  width: 350px;
 }
 
 .w-\[500px\] {
@@ -1036,6 +1036,10 @@ html {
 
 .bg-\[url\(\'\/img\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\'\)\] {
   background-image: url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
+}
+
+.bg-\[url\(\'\/img\/history\/theConjuring\.jpg\'\)\] {
+  background-image: url('/img/history/theConjuring.jpg');
 }
 
 .bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
