@@ -2,28 +2,54 @@
 
 ---
 
-Version: 0.0.2.1 (Unrelease)
+Version: 0.0.2 (Unrelease Main)
 
 ---
 
-### Update **Version 0.0.2.1 - @pagedone (Unrelease)**
+#### #### Update **Version 0.0.3.0 - @pagedone (Unrelease)**
+
+Content Update:
+
+- Menambah Abstrak pada History, serta menjadi judul "History of Us" menjadi "Glimpse of Us"
+- Penambahan update link pada bagian Instagram dengan menambah
+  ```html
+  <a href="Link" class="cursor-pointer"> //... </a>
+  ```
+
+Fitur Baru:
+
+- Carousell foto pada History
+
+> Repository branch @pagedone Update #3 commit [dbdee68](https://github.com/vianismee/viantastory.github.io/commit/dbdee687e49d692a0d75f841a34dae79c8e5a670)
+> Kamis, 02/05/2024 -- @deviceKantor
+
+Bug Fix:
+
+- Minor Bug Fixs
+
+#### Update **Version 0.0.2.1 - @pagedone ✔**
+
 Minor Fix
+
 - Memperbaiki teks merapikan structure & section
-  > Repository branch @pagedone Update #3 commit [dbdee68](https://github.com/vianismee/viantastory.github.io/commit/dbdee687e49d692a0d75f841a34dae79c8e5a670)
-  > Kamis, 02/05/2024 -- @deviceKantor
+
+> Repository branch @pagedone Update #3 commit [dbdee68](https://github.com/vianismee/viantastory.github.io/commit/dbdee687e49d692a0d75f841a34dae79c8e5a670)
+> Kamis, 02/05/2024 -- @deviceKantor
+
 ---
 
-### Update **Version 0.0.2 - @pagedone (Unrelease)**
+#### Update **Version 0.0.2 - @pagedone ✔**
 
 Pada update Versi 0.0.2 menambahkan changelog untuk mendeteksi perubahan tree pada github.
 
 - Mendambah CHANGELOG dalam bentuk markdown `.md`
-  > Repository branch @pagedone Update #2 commit [7fed9b1](https://github.com/vianismee/viantastory.github.io/commit/7fed9b1791576bee4aee73224150335496a7b694)
-  > Kamis, 02/05/2024 -- @deviceKantor
+
+> Repository branch @pagedone Update #2 commit [7fed9b1](https://github.com/vianismee/viantastory.github.io/commit/7fed9b1791576bee4aee73224150335496a7b694)
+> Kamis, 02/05/2024 -- @deviceKantor
 
 ---
 
-### Update **Version 0.0.1 - @pagedone (Unrelease)**
+### Update **Version 0.0.1 - @pagedone ✔**
 
 Pada update Versi 0.0.1 menambahkan plugin pendukung Tailwind CSS, UI Library: Pagedone; Daisyui, Icon Library: Lucide, Utilities: Scrollbar Hide
 
