@@ -2,11 +2,18 @@
 
 ---
 
-Version: 0.0.2 (Unrelease)
+Version: 0.0.2.1 (Unrelease)
 
 ---
 
-#### Update **Version 0.0.2 - @pagedone (Unrelease)**
+### Update **Version 0.0.2.1 - @pagedone (Unrelease)**
+Minor Fix
+- Memperbaiki teks merapikan structure & section
+  > Repository branch @pagedone Update #3 commit [dbdee68](https://github.com/vianismee/viantastory.github.io/commit/dbdee687e49d692a0d75f841a34dae79c8e5a670)
+  > Kamis, 02/05/2024 -- @deviceKantor
+---
+
+### Update **Version 0.0.2 - @pagedone (Unrelease)**
 
 Pada update Versi 0.0.2 menambahkan changelog untuk mendeteksi perubahan tree pada github.
 
