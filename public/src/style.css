@@ -810,10 +810,6 @@ html {
   height: 300px;
 }
 
-.h-\[380px\] {
-  height: 380px;
-}
-
 .h-\[40px\] {
   height: 40px;
 }
@@ -916,6 +912,10 @@ html {
   gap: 1rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -992,6 +992,10 @@ html {
   border-radius: 0.125rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-tl-\[100px\] {
   border-top-left-radius: 100px;
 }
@@ -1046,11 +1050,6 @@ html {
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1070,6 +1069,26 @@ html {
 
 .bg-\[url\(\'\/img\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\'\)\] {
   background-image: url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl1\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl1.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl2\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl2.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl5\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl5.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl6\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl6.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl7\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl7.jpg');
 }
 
 .bg-\[url\(\'\/img\/history\/theConjuring\.jpg\'\)\] {
@@ -1098,6 +1117,10 @@ html {
 
 .bg-top {
   background-position: top;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-center {
@@ -2115,6 +2138,16 @@ html {
   }
 }
 
+.hover\:rotate-2:hover {
+  --tw-rotate: 2deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:rotate-3:hover {
+  --tw-rotate: 3deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -2141,10 +2174,14 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.hover\:shadow-2xl:hover {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.hover\:drop-shadow-xl:hover {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:grayscale-0:hover {
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:duration-500:hover {
@@ -2182,6 +2219,10 @@ html {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-\[340px\] {
+    height: 340px;
   }
 
   .lg\:items-center {

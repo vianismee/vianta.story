@@ -6,6 +6,20 @@ Version: 0.1.4.0 Main
 Unrelease: V 0.2.0.0
 
 ---
+#### Version 0.2.1.0
+
+Content Update:
+- Add image on gallery section
+
+Upcoming:
+- Article Page on `/public/page/article/<Judul>.html`
+- Gallery page on `/public/page/gallery.html`
+- Add audio autoplay
+
+> Repository branch @Revert Update #8 commit [d309089](https://github.com/vianismee/viantastory.github.io/commit/d309089b1a12932f19a8b5614c8d2f7e3f49e511)
+> Sabtu, 05/05/2024 -- @vianismee
+
+---
 #### Version 0.2.0.0
 
 Content Update:
