@@ -16,7 +16,7 @@ Upcoming:
 - Gallery page on `/public/page/gallery.html`
 - Add audio autoplay
 
-> Repository branch @Revert Update #8 commit [d309089](https://github.com/vianismee/viantastory.github.io/commit/d309089b1a12932f19a8b5614c8d2f7e3f49e511)
+> Repository branch @Revert Update #8 commit [8607cc4](https://github.com/vianismee/viantastory.github.io/commit/8607cc41fe39318b7b0c1098982a38bef836e846)
 > Sabtu, 05/05/2024 -- @vianismee
 
 ---
