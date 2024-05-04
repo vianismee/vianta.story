@@ -1,8 +1,27 @@
-## VIANTA STORY
+# **VIANTA STORY**
 
 ---
 
-Version: 0.1.4.0 (Unrelease Main)
+Version: 0.1.4.0 Main
+Unrelease: V 0.2.0.0
+
+---
+#### Version 0.2.0.0
+
+Content Update:
+
+- Minor Fix Typo
+
+Page Update:
+- Add Gallery
+- Animate Gallery
+
+Upcoming:
+- Article Page on `/public/page/..`
+- Add audio autoplay
+
+> Repository branch @main Update #7 commit [d309089](https://github.com/vianismee/viantastory.github.io/commit/d309089b1a12932f19a8b5614c8d2f7e3f49e511)
+> Kamis, 02/05/2024 -- @deviceKantor
 
 ---
 
