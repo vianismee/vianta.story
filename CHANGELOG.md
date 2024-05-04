@@ -3,9 +3,33 @@
 ---
 
 Version: 0.1.4.0 Main
-Unrelease: V 0.2.0.0
+Unrelease: V 0.2.2.0
 
 ---
+
+#### Version 0.2.2.0
+
+Fitur Update :
+- Add Gallery page `/public/page/gallery/gallery.html`
+- Gallery made with
+```html
+<div class="column-5 ...">....</div>
+```
+
+Content Update:
+- Add image on Gallery page
+
+Upcoming:
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- ~~Gallery page on `/public/page/gallery.html`~~
+- Add audio autoplay
+
+> Repository branch @Revert Update #9 commit [d309089](https://github.com/vianismee/viantastory.github.io/commit/d309089b1a12932f19a8b5614c8d2f7e3f49e511)
+> Sabtu, 05/05/2024 -- @vianismee
+
+---
+
 #### Version 0.2.1.0
 
 Content Update:
