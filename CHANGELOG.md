@@ -3,7 +3,8 @@
 ---
 
 Version: 0.1.4.0 Main
-Unrelease: V 0.2.2.0
+
+Unrelease: V 0.2.2.0 (@Revert)
 
 ---
 
@@ -25,7 +26,7 @@ Upcoming:
 - ~~Gallery page on `/public/page/gallery.html`~~
 - Add audio autoplay
 
-> Repository branch @Revert Update #9 commit [d309089](https://github.com/vianismee/viantastory.github.io/commit/d309089b1a12932f19a8b5614c8d2f7e3f49e511)
+> Repository branch @Revert Update #9 commit [55b1835](https://github.com/vianismee/viantastory.github.io/commit/55b1835504aa895f06f65affcef785bf65a4ec9a)
 > Sabtu, 05/05/2024 -- @vianismee
 
 ---
