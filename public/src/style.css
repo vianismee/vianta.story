@@ -693,6 +693,10 @@ html {
   z-index: -10;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -735,6 +739,11 @@ html {
   margin-right: auto;
 }
 
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -764,8 +773,16 @@ html {
   margin-bottom: 100px;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
 .mr-10 {
@@ -814,6 +831,10 @@ html {
 
 .aspect-\[5\/4\] {
   aspect-ratio: 5/4;
+}
+
+.aspect-\[9\/16\] {
+  aspect-ratio: 9/16;
 }
 
 .aspect-square {
@@ -928,6 +949,10 @@ html {
 
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.place-content-end {
+  place-content: end;
 }
 
 .place-items-start {
@@ -1138,6 +1163,30 @@ html {
   background-image: url('/img/gallery/gl1.jpg');
 }
 
+.bg-\[url\(\'\/img\/gallery\/gl10\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl10.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl11\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl11.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl12\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl12.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl13\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl13.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl14\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl14.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl15\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl15.jpg');
+}
+
 .bg-\[url\(\'\/img\/gallery\/gl2\.jpg\'\)\] {
   background-image: url('/img/gallery/gl2.jpg');
 }
@@ -1152,6 +1201,14 @@ html {
 
 .bg-\[url\(\'\/img\/gallery\/gl7\.jpg\'\)\] {
   background-image: url('/img/gallery/gl7.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl8\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl8.jpg');
+}
+
+.bg-\[url\(\'\/img\/gallery\/gl9\.jpg\'\)\] {
+  background-image: url('/img/gallery/gl9.jpg');
 }
 
 .bg-\[url\(\'\/img\/history\/theConjuring\.jpg\'\)\] {
@@ -1209,6 +1266,10 @@ html {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-9 {
@@ -1324,6 +1385,11 @@ html {
   font-size: 80px;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1354,6 +1420,10 @@ html {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -1410,6 +1480,10 @@ html {
 
 .decoration-pink-900 {
   text-decoration-color: #831843;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 .shadow-2xl {
@@ -1518,6 +1592,27 @@ html {
 
 .carousel-end .carousel-item {
   scroll-snap-align: end;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 1rem;
+  white-space: nowrap;
+}
+
+.divider:before,
+  .divider:after {
+  height: 0.125rem;
+  width: 100%;
+  flex-grow: 1;
+  --tw-content: '';
+  content: var(--tw-content);
+  background-color: var(--fallback-bc,oklch(var(--bc)/0.1));
 }
 
 .link {
@@ -1659,6 +1754,10 @@ html {
   100% {
     background-position-y: 0;
   }
+}
+
+.divider:not(:empty) {
+  gap: 1rem;
 }
 
 .link:focus {
@@ -2258,6 +2357,10 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
 }
 
 .hover\:drop-shadow-xl:hover {

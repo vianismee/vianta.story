@@ -4,7 +4,28 @@
 
 Version: 0.1.4.0 Main
 
-Unrelease: V 0.2.2.0 (@Revert)
+Unrelease: V 0.2.3.0 (@Revert)
+
+---
+
+#### Version 0.2.3.0
+
+Content Update:
+- Add image heading & place
+- Add some picture on `image.html`
+
+Minor Fix:
+- Rebuild `/page` file
+- Fixing typo
+
+Upcoming:
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- Add audio autoplay
+- Responsive Website
+
+> Repository branch @Revert Update #10 commit [55b1835](https://github.com/vianismee/viantastory.github.io/commit/55b1835504aa895f06f65affcef785bf65a4ec9a)
+> Minggu, 05/05/2024 -- @vianismee
 
 ---
 
@@ -22,12 +43,12 @@ Content Update:
 
 Upcoming:
 - Article Page on `/public/page/article/<Judul>.html`
-- Article Home Page `public/page/article/Article.html
+- Article Home Page `public/page/article/Article.html`
 - ~~Gallery page on `/public/page/gallery.html`~~
 - Add audio autoplay
 
 > Repository branch @Revert Update #9 commit [55b1835](https://github.com/vianismee/viantastory.github.io/commit/55b1835504aa895f06f65affcef785bf65a4ec9a)
-> Sabtu, 05/05/2024 -- @vianismee
+> Sabtu, 04/05/2024 -- @vianismee
 
 ---
 
@@ -42,7 +63,7 @@ Upcoming:
 - Add audio autoplay
 
 > Repository branch @Revert Update #8 commit [8607cc4](https://github.com/vianismee/viantastory.github.io/commit/8607cc41fe39318b7b0c1098982a38bef836e846)
-> Sabtu, 05/05/2024 -- @vianismee
+> Sabtu, 04/05/2024 -- @vianismee
 
 ---
 #### Version 0.2.0.0
