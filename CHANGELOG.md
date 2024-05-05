@@ -24,7 +24,7 @@ Upcoming:
 - Add audio autoplay
 - Responsive Website
 
-> Repository branch @Revert Update #10 commit [55b1835](https://github.com/vianismee/viantastory.github.io/commit/55b1835504aa895f06f65affcef785bf65a4ec9a)
+> Repository branch @Revert Update #10 commit [7cecb7c](https://github.com/vianismee/viantastory.github.io/commit/7cecb7c494e13c6991674ceb543ac01f3bf44239)
 > Minggu, 05/05/2024 -- @vianismee
 
 ---
