@@ -8,17 +8,36 @@ Unrelease: V 0.2.3.0 (@Revert)
 
 ---
 
+#### Version 0.2.3.1
+
+Update:
+Responsive Website
+
+Upcoming:
+
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- Add audio autoplay
+
+> Repository branch @resposive Update #11 commit [7cecb7c](https://github.com/vianismee/viantastory.github.io/commit/7cecb7c494e13c6991674ceb543ac01f3bf44239)
+> Senin, 06/05/2024 -- @deviceKantor
+
+---
+
 #### Version 0.2.3.0
 
 Content Update:
+
 - Add image heading & place
 - Add some picture on `image.html`
 
 Minor Fix:
+
 - Rebuild `/page` file
 - Fixing typo
 
 Upcoming:
+
 - Article Page on `/public/page/article/<Judul>.html`
 - Article Home Page `public/page/article/Article.html
 - Add audio autoplay
@@ -32,16 +51,20 @@ Upcoming:
 #### Version 0.2.2.0
 
 Fitur Update :
+
 - Add Gallery page `/public/page/gallery/gallery.html`
 - Gallery made with
+
 ```html
 <div class="column-5 ...">....</div>
 ```
 
 Content Update:
+
 - Add image on Gallery page
 
 Upcoming:
+
 - Article Page on `/public/page/article/<Judul>.html`
 - Article Home Page `public/page/article/Article.html`
 - ~~Gallery page on `/public/page/gallery.html`~~
@@ -55,9 +78,11 @@ Upcoming:
 #### Version 0.2.1.0
 
 Content Update:
+
 - Add image on gallery section
 
 Upcoming:
+
 - Article Page on `/public/page/article/<Judul>.html`
 - Gallery page on `/public/page/gallery.html`
 - Add audio autoplay
@@ -66,6 +91,7 @@ Upcoming:
 > Sabtu, 04/05/2024 -- @vianismee
 
 ---
+
 #### Version 0.2.0.0
 
 Content Update:
@@ -73,10 +99,12 @@ Content Update:
 - Minor Fix Typo
 
 Page Update:
+
 - Add Gallery
 - Animate Gallery
 
 Upcoming:
+
 - Article Page on `/public/page/..`
 - Add audio autoplay
 
@@ -86,14 +114,18 @@ Upcoming:
 ---
 
 #### Release Main Version 0.1.4.0
+
 Content Update:
+
 - History content update "The Conjuring Date"
 - Add file `img/history/`
 
 Fitur Update:
+
 - Add audio autoplay ❌ \\ Karena di refresh audio tidak keluar next time
 
 Upcoming:
+
 - Gallery
 - Article Page on `/public/page/..`
 
@@ -103,7 +135,9 @@ Upcoming:
 ---
 
 #### Release Main Version 0.1.3.0
+
 Merge @pagedone to @main
+
 > Repository branch @main Update #5 commit [d77b0a9](https://github.com/vianismee/viantastory.github.io/commit/d77b0a92e8cb5b4b3496df4bb404c9f3b201e6d9)
 > Kamis, 02/05/2024 -- @deviceKantor
 
