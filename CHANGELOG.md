@@ -2,9 +2,30 @@
 
 ---
 
-Version: 0.1.4.0 Main
+Version: 0.2.3.1 Main
 
-Unrelease: V 0.2.3.0 (@Revert)
+Unrelease: V 0.2.3.2 (@responsive)
+
+---
+
+#### Version 0.2.3.2
+
+Update:
+
+- Migrasi image ke CDN lewat [imagekit.io](https://imagekit.io/dashboard/media-library/L2dhbGxlcnk) Jika berhasil bisa di hapus file image
+
+Responsive:
+
+- Add Navbar Responsive
+
+Upcoming:
+
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- Add audio autoplay
+
+> Repository branch @resposive Update #12 commit [7cecb7c](https://github.com/vianismee/viantastory.github.io/commit/7cecb7c494e13c6991674ceb543ac01f3bf44239)
+> Selasa, 07/05/2024 -- @deviceKantor
 
 ---
 

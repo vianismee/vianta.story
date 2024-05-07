@@ -705,6 +705,10 @@ html {
   z-index: 30;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .z-\[1\] {
   z-index: 1;
 }
@@ -873,6 +877,10 @@ html {
   height: 300px;
 }
 
+.h-\[30px\] {
+  height: 30px;
+}
+
 .h-\[40px\] {
   height: 40px;
 }
@@ -903,10 +911,6 @@ html {
 
 .w-\[350px\] {
   width: 350px;
-}
-
-.w-\[450px\] {
-  width: 450px;
 }
 
 .w-\[500px\] {
@@ -1172,22 +1176,6 @@ html {
   background-color: rgb(255 255 255 / 0.5);
 }
 
-.bg-\[url\(\'\/img\/about\/about02\.jpg\'\)\] {
-  background-image: url('/img/about/about02.jpg');
-}
-
-.bg-\[url\(\'\/img\/about\/photous\.jpg\'\)\] {
-  background-image: url('/img/about/photous.jpg');
-}
-
-.bg-\[url\(\'\/img\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\'\)\] {
-  background-image: url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg');
-}
-
-.bg-\[url\(\'\/img\/gallery\/gl1\.jpg\'\)\] {
-  background-image: url('/img/gallery/gl1.jpg');
-}
-
 .bg-\[url\(\'\/img\/gallery\/gl10\.jpg\'\)\] {
   background-image: url('/img/gallery/gl10.jpg');
 }
@@ -1212,18 +1200,6 @@ html {
   background-image: url('/img/gallery/gl15.jpg');
 }
 
-.bg-\[url\(\'\/img\/gallery\/gl2\.jpg\'\)\] {
-  background-image: url('/img/gallery/gl2.jpg');
-}
-
-.bg-\[url\(\'\/img\/gallery\/gl5\.jpg\'\)\] {
-  background-image: url('/img/gallery/gl5.jpg');
-}
-
-.bg-\[url\(\'\/img\/gallery\/gl6\.jpg\'\)\] {
-  background-image: url('/img/gallery/gl6.jpg');
-}
-
 .bg-\[url\(\'\/img\/gallery\/gl7\.jpg\'\)\] {
   background-image: url('/img/gallery/gl7.jpg');
 }
@@ -1236,20 +1212,8 @@ html {
   background-image: url('/img/gallery/gl9.jpg');
 }
 
-.bg-\[url\(\'\/img\/history\/theConjuring\.jpg\'\)\] {
-  background-image: url('/img/history/theConjuring.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/05BpWpH8\/hand\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/05BpWpH8/hand.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/i\.postimg\.cc\/MGm7dNg4\/about02\.jpg\'\)\] {
-  background-image: url('https://i.postimg.cc/MGm7dNg4/about02.jpg');
-}
-
-.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\?updatedAt\=1715066295535\'\)\] {
-  background-image: url('https://ik.imagekit.io/viantastory/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg?updatedAt=1715066295535');
+.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/TheConjuring\.jpg\?updatedAt\=1715066947185\'\)\] {
+  background-image: url('https://ik.imagekit.io/viantastory/TheConjuring.jpg?updatedAt=1715066947185');
 }
 
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/about\/about02\.jpg\?updatedAt\=1715066268673\'\)\] {
@@ -1260,16 +1224,12 @@ html {
   background-image: url('https://ik.imagekit.io/viantastory/about/hand.jpg?updatedAt=1715066268843');
 }
 
+.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/cover\/nathan-dumlao-5BB_atDT4oA-unsplash\.jpg\?updatedAt\=1715066295535\'\)\] {
+  background-image: url('https://ik.imagekit.io/viantastory/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg?updatedAt=1715066295535');
+}
+
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl10\.JPG\?updatedAt\=1715066324191\'\)\] {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl10.JPG?updatedAt=1715066324191');
-}
-
-.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl9\.JPG\?updatedAt\=1715066328665\'\)\] {
-  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl9.JPG?updatedAt=1715066328665');
-}
-
-.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/TheConjuring\.jpg\?updatedAt\=1715066947185\'\)\] {
-  background-image: url('https://ik.imagekit.io/viantastory/TheConjuring.jpg?updatedAt=1715066947185');
 }
 
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl4\.jpg\?updatedAt\=1715066323900\'\)\] {
@@ -1282,6 +1242,10 @@ html {
 
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl6\.jpg\?updatedAt\=1715066327233\'\)\] {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl6.jpg?updatedAt=1715066327233');
+}
+
+.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl9\.JPG\?updatedAt\=1715066328665\'\)\] {
+  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl9.JPG?updatedAt=1715066328665');
 }
 
 .bg-cover {
@@ -1315,6 +1279,10 @@ html {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .p-32 {
@@ -2980,8 +2948,20 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:top-4 {
+    top: 1rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-\[730px\] {
+    width: 730px;
   }
 
   .md\:scale-100 {
@@ -2996,6 +2976,10 @@ html {
 
   .md\:justify-center {
     justify-content: center;
+  }
+
+  .md\:rounded-full {
+    border-radius: 9999px;
   }
 
   .md\:text-end {
@@ -3026,6 +3010,10 @@ html {
     height: 340px;
   }
 
+  .lg\:h-\[40px\] {
+    height: 40px;
+  }
+
   .lg\:w-full {
     width: 100%;
   }
@@ -3050,10 +3038,20 @@ html {
 }
 
 @media (min-width: 1280px) {
+  .xl\:w-\[1080px\] {
+    width: 1080px;
+  }
+
   .xl\:scale-100 {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:w-\[1700px\] {
+    width: 1700px;
   }
 }
  
