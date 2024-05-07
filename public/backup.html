@@ -24,11 +24,11 @@
     <title>VIANTA - Story about Vian & Vita</title>
     <audio src="/audio/audio.mp3" autoplay="true" loop="true"></audio>
 </head>
-<body class="bg-slate-200">
+<body class="bg-slate-200 w-screen">
 <!-- Cover -->
-    <section class="h-screen flex justify-center place-items-end bg-[url('/img/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg')] bg-cover bg-fixed bg-top grayscale xl:scale-100 md:scale-100 sm:scale-120">
+    <section class="h-screen w-screen sm:scale-100 flex justify-center place-items-end bg-[url('https://ik.imagekit.io/viantastory/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg?updatedAt=1715066295535')] bg-cover bg-fixed bg-top grayscale xl:scale-100 md:scale-100">
         <div class="space-y-7 text-center object-center text-white mx-auto mb-[50px]">
-            <img src="https://i.postimg.cc/YSDNmVZw/white.png" alt="" class="mx-auto mb-[50px]">
+            <img src="https://ik.imagekit.io/viantastory/logo/white.png?updatedAt=1715066542083" alt="" class="mx-auto mb-[50px]">
             <h1 class="font-bold text-4xl lg:text-5xl font-playfairDisplay">Welcome to Our <span class="italic"> Story </span></h1>
             <p class=" font-georgia text-lg lg:text-2xl font-thin">Made with love, We <span class="italic font-playfairDisplay">belive</span> true <span class="italic font-playfairDisplay">love</span> is real</p>
             <button class="font-bold py-3 px-5 font-lato outline outline-white outline-2 rounded-md hover:bg-white hover:text-black hover:duration-500"> <a href="#about">READ OUR STORY</a></button>
@@ -36,45 +36,102 @@
     </section>
 <!-- Cover End -->
 <!-- Navigation Bar -->
-<div class=" sticky top-4 mt-3 navbar bg-base-100 rounded-full w-[450px] mx-auto">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+  <div class="lg:sticky navbar backdrop-blur-md bg-white/50 w-full mx-auto border-2 border-slate-100 z-50 md:rounded-full md:top-4 md:mt-3 md:w-[730px] 2xl:w-[1700px] xl:w-[1080px] lg:[890px]">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-lato font-bold">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#history">HISTORY</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#blog">BLOG</a></li> 
+          </ul>
         </div>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
-          <li><a>Item 3</a></li>
+        <div class="flex justify-center items-center p-3">
+          <img src="https://ik.imagekit.io/viantastory/logo/black..png?updatedAt=1715066559892" alt="" class="h-[30px] mx-auto lg:h-[40px]"> 
+          <h1 class="font-playfairDisplay font-bold text-center text-xl lg:text-2xl ml-2">VIANTA</h1>
+        </div>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 font-lato font-bold">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#history">HISTORY</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#blog">BLOG</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <div class="navbar-end p-3">
+        <div class="relative inline-block">
+          <button data-tooltip-target="bottom-tooltip" class="items-center font-bold py-2 text-sm px-4 font-lato outline outline-black outline-2 rounded-full hover:bg-white hover:text-black hover:duration-500 cursor-not-allowed">
+              <span class="inline-flex items-center">
+                  <span class="text-sm font-extrabold">WEDDING</span>
+                  <svg class="self-center ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar-heart"><path d="M3 10h18V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7"/><path d="M8 2v4"/><path d="M16 2v4"/><path d="M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"/></svg>
+              </span>
+          </button>
+          <div class="absolute p-2 top-full invisible left-1/2 z-20 mt-3 border border-gray-300 -translate-x-1/2 whitespace-nowrap rounded-md bg-white py-2 px-4 text-xs text-gray-800 font-medium transition-opacity duration-300 shadow-[0px_-12px_30px_-4px_rgba(16,24,40,0.08)] scale-75" role="tooltip" id="bottom-tooltip">
+              <span class="absolute -top-1.5 left-1/2 -z-10 h-3 w-3  border-t border-l rounded-sm border-gray-300 -translate-x-1/2 rotate-45 bg-white"></span>
+              Doakan yaa agar disegerakan!</div>
+         </div>
+      </div>
     </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
-        <li><a>Item 1</a></li>
-        <li>
-          <details>
-            <summary>Parent</summary>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <div class="navbar-end">
-      <a class="btn">Button</a>
-    </div>
-  </div>
 <!-- End Navigation Bar -->
+<!-- About Us -->
+<section id="about" class=" bg-slate-200 -mt-[98px] pt-32 lg:grid-rows-2 pb-11 px-10 lg:h-screen">
+    <!-- Quote -->
+      <div class=" bg-slate-200 text-wrap lg:px-32 xl:px-56">
+          <article class="lg:p-9 text-center">
+              <h1 class="font-playfairDisplay text-3xl md:text-4xl lg:text-5xl font-bold text-balance tracking-wide leading-snug">"WE <span class="italic underline decoration-pink-800">LOVE</span> BECAUSE IT'S THE ONLY TRUE ADVENTURE"</h1>
+          </article>
+      </div>
+    <div class="lg:hidden grid grid-rows-6 ">
+    <!-- End Quote -->
+    <!-- Image 1 -->
+      <div class="h-[full] row-span-2 flex justify-center">
+        <div class="h-[250px] aspect-[3/4] place-self-center rounded-tl-[70px] rounded-br-[70px] overflow-hidden shadow-2xl">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/about/about02.jpg?updatedAt=1715066268673')] bg-cover bg-center"></div> 
+         </div>
+      </div>
+    <!-- End Image 1 -->
+    <!-- Intro Vian -->
+      <div class="h-full">
+            <article class="h-full text-wrap">
+                <h1 class="font-playfairDisplay font-bold text-xl text-center">Chevian<span class="italic"> Berliandi</span> Sahputra</h1>
+                <p class="mt-3 font-lato font-medium text-sm text-center">Halo semua, Kenalin aku <span class="italic font-playfairDisplay font-bold underline decoration-pink-800">Vian</span> seorang pemuda yang memiliki banyak sekali hobi. Salah satu hobi aku yaitu design grafis. Dengan membuat website ini aku ingin mengabadikan moment bersama my biggest partner in crime <span class="font-bold italic underline font-playfairDisplay">Vita</span>.</p>
+            </article>
+            <div>
+                <div class=" h-full place-self-end flex justify-center -mt-3 mb-2" >
+                    <a href="https://instagram.com/vianismee.eth" class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                </div>
+            </div>
+      </div>
+    <!-- End Intro Vian -->
+    <!-- Image-->
+      <div class="h-[full] row-span-2 flex justify-center">
+            <div class="h-[250px] aspect-[3/4] place-self-center rounded-tl-[70px] rounded-br-[70px] overflow-hidden shadow-2xl">
+                <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl6.jpg?updatedAt=1715066327233')] bg-cover bg-center"></div> 
+            </div>
+       </div>
+    <!-- End Image-->
+    <!-- Intro Vita -->
+        <div class="h-full">
+            <article class="h-full text-wrap">
+                <h1 class="font-playfairDisplay font-bold text-xl text-center">Vita<span class="italic"> Permata</span> Sari</h1>
+                <p class="mt-3 font-lato font-medium text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laudantium, rerum nisi ipsum, pariatur cumque facilis dicta tempore illo iste omnis velit. Reiciendis, atque temporibus! Sint officia cupiditate placeat excepturi.</p>
+            </article>
+            <div>
+                <div class=" h-full place-self-end flex justify-center -mt-3 mb-2" >
+                    <a href="https://instagram.com/_vitaaac/" class="cursor-pointer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <!-- End Intro Vita -->
+<script src="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/js/pagedone.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
