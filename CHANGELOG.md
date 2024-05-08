@@ -24,8 +24,8 @@ Upcoming:
 - Article Home Page `public/page/article/Article.html
 - Add audio autoplay
 
-> Repository branch @resposive Update #14 commit [8c9d241](https://github.com/vianismee/viantastory.github.io/commit/8c9d24192555d06632339db15609946e8c51acfc)
-> Rabu, 08/05/2024 -- @vianismee
+> Repository branch @resposive Update #14 commit [0441d30](https://github.com/vianismee/viantastory.github.io/commit/0441d3000c195402ceec4950cc7b2ff2b6da7649)
+> Rabu, 08/05/2024 -- @deviceKantor
 
 ---
 
