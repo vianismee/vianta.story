@@ -4,7 +4,50 @@
 
 Version: 0.2.3.1 Main
 
-Unrelease: V 0.2.3.2 (@responsive)
+Unrelease: V 0.2.3.4 (@responsive)
+
+---
+
+#### Version 0.2.3.4
+
+Responsive:
+
+- Add Responsive `history`
+
+Eror :
+
+- Responsive on `Gallery`
+
+Upcoming:
+
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- Add audio autoplay
+
+> Repository branch @resposive Update #14 commit [0441d30](https://github.com/vianismee/viantastory.github.io/commit/0441d3000c195402ceec4950cc7b2ff2b6da7649)
+> Rabu, 08/05/2024 -- @deviceKantor
+
+---
+
+#### Version 0.2.3.3
+
+Responsive:
+
+- Add About Us Responsive on Hp
+- Change Navbar Acodrion to Drawer (Sidebar)
+
+Eror :
+
+- Responsive to `md` or `lg` on About Us Section
+
+Upcoming:
+
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- Add audio autoplay
+
+> Repository branch @resposive Update #13 commit [8c9d241](https://github.com/vianismee/viantastory.github.io/commit/8c9d24192555d06632339db15609946e8c51acfc)
+> Selasa, 07/05/2024 -- @vianismee
 
 ---
 
