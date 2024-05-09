@@ -4,7 +4,28 @@
 
 Version: 0.2.3.1 Main
 
-Unrelease: V 0.2.3.4 (@responsive)
+Unrelease: V 0.2.3.5 (@responsive)
+
+---
+#### Version 0.2.3.6
+
+Responsive:
+
+- Add Responsive `gallery`
+- Add stack & Carousle on `gallery`
+
+Eror :
+
+- ~~Responsive on `Gallery`~~
+
+Upcoming:
+
+- Article Page on `/public/page/article/<Judul>.html`
+- Article Home Page `public/page/article/Article.html
+- Add audio autoplay
+
+> Repository branch @resposive Update #15 commit [0441d30](https://github.com/vianismee/viantastory.github.io/commit/0441d3000c195402ceec4950cc7b2ff2b6da7649)
+> Kamis, 09/05/2024 -- @vianismee
 
 ---
 
