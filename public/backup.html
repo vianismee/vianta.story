@@ -22,11 +22,10 @@
     <link href="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/css/pagedone.css"/>
     <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>VIANTA - Story about Vian & Vita</title>
-    <audio src="/audio/audio.mp3" autoplay="true" loop="true"></audio>
 </head>
-<body class="bg-slate-200 w-screen">
+<body class=" w-screen">
 <!-- Cover -->
-    <section class="h-screen w-screen flex justify-center place-items-center lg:place-items-end bg-[url('https://ik.imagekit.io/viantastory/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg?updatedAt=1715066295535')] bg-cover bg-fixed bg-top grayscale xl:scale-100 md:scale-100">
+    <section class="h-screen w-screen flex justify-center place-items-center lg:place-items-end bg-[url('https://ik.imagekit.io/viantastory/cover/nathan-dumlao-5BB_atDT4oA-unsplash.jpg?updatedAt=1715066295535')] bg-cover bg-scroll bg-top lg:bg-fixed grayscale xl:scale-100 md:scale-100">
         <div class="space-y-7 text-center object-center text-white mx-auto mb-[50px]">
             <img src="https://ik.imagekit.io/viantastory/logo/white.png?updatedAt=1715066542083" alt="" class="mx-auto mb-[50px]">
             <h1 class="font-bold text-4xl lg:text-5xl font-playfairDisplay">Welcome to Our <span class="italic"> Story </span></h1>
@@ -145,7 +144,7 @@
     </section>
 <!-- End About Us -->
 <!-- History -->
-    <section id="history" class=" bg-slate-50 pt-5 lg:grid lg:grid-cols-2 lg:pt-32 lg:h-screen">
+    <section id="history" class=" bg-slate-50 pt-5 lg:grid lg:grid-cols-2 lg:pt-32 lg:h-screen mb-20">
         <!-- Opening History Of Us -->
         <div class="w-full bg-slate-50 place-items-center flex p-10 lg:col-start-1 lg:p-36">
             <article class="text-pretty">
@@ -154,7 +153,6 @@
                     berinteraksi online. Sekilas tentang kami, kami satu sekolah <span class="italic font-playfairDisplay font-bold underline decoration-pink-700">Vian</span> sebagai
                     kakak tingkat dari <span class="italic font-playfairDisplay font-bold underline decoration-pink-700">Vita</span> tetapi umur kami tidak terpaut jauh.</p>
             </article>
-            
         </div>
         <!-- History Content -->
         <!-- Timeline -->
@@ -163,7 +161,7 @@
                 Our <span class="italic">History</span> 
             </h1>
         </article>
-        <div class="h-[500px] lg:h-[700px] lg:overflow-y-scroll overflow-y-scroll scrollbar-hide will-change-scroll lg:col-start-2 px-8 mt-10 mb-14"> <!-- Scrollbar Hide with plugin -->
+        <div class="bg-slate-100 h-[500px] lg:h-[500px] lg:overflow-y-scroll overflow-y-scroll scrollbar-hide will-change-scroll lg:col-start-2 px-8 mt-10 mb-11"> <!-- Scrollbar Hide with plugin -->
             <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">  
                 <!-- First Conversation -->
                 <li>
@@ -218,6 +216,91 @@
         <!-- End Timeline -->
     </section>
 <!-- End History -->
+<!-- Gallery -->
+<section class="" id="gallery">
+    <div class="w-screen grid grid-rows-3 gap-4 lg:hidden -mt-16">
+        <div class="row-start-1 flex place-items-start p-7 justify-center">
+            <h1 class="font-playfairDisplay font-bold text-4xl text-center">
+                <span class="italic">our</span> Gallery
+            </h1>
+        </div>
+        <div class="row-span-2 flex place-items-center justify-center">
+            <div class="h-[250px] aspect-[4/3] -translate-y-9">
+                <div class="stack h-full w-full">
+                    <div class="grid w-full h-full rounded-2xl carousel">
+                        <div class="carousel-item w-full">
+                            <div class="w-full h-full bg-[url('https://ik.imagekit.io/viantastory/about/about02.jpg?updatedAt=1715066268673')] bg-cover bg-center"></div>
+                        </div>
+                        <div class="carousel-item w-full">
+                            <div class="w-full h-full bg-[url('https://ik.imagekit.io/viantastory/about/hand.jpg?updatedAt=1715066268843')] bg-cover bg-center"></div>
+                        </div>
+                        <div class="carousel-item w-full">
+                            <div class="w-full h-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl5.jpg?updatedAt=1715066327298')] bg-cover bg-center"></div>
+                        </div>
+                        <div class="carousel-item w-full">
+                            <div class="w-full h-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl6.jpg?updatedAt=1715066327233')] bg-cover bg-center"></div>
+                        </div>
+                        <div class="carousel-item w-full">
+                            <div class="w-full h-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl10.JPG?updatedAt=1715066324191')] bg-cover flex justify-center place-items-center grayscale">
+                                <button class="py-3 px-5 font-lato outline text-white outline-white outline-2 rounded-xl hover:bg-white hover:text-black hover:duration-500">
+                                    <a href="" class="font-bold">CHECK MORE</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="grid w-full h-full rounded-2xl bg-[url('https://ik.imagekit.io/viantastory/about/about02.jpg?updatedAt=1715066268673')] bg-cover"></div> 
+                    <div class="grid w-full h-full rounded-2xl bg-[url('https://ik.imagekit.io/viantastory/about/hand.jpg?updatedAt=1715066268843')] bg-cover bg-no-repeat bg-center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Responsive -->
+    <div class="lg:h-screen lg:items-center lg:p-32 lg:justify-center overflow-hidden">
+        <div class="lg:grid lg:grid-cols-5 lg:gap-4 text-white font-bold place-items-center">
+        <!-- Content in Grid -->
+        <div class="h-0 lg:self-center lg:-translate-y-[100px]">
+            <img src="https://ik.imagekit.io/viantastory/logo/black..png?updatedAt=1715066559892" alt="" class="h-[200px] ">
+        </div>
+        <div class="h-0 lg:row-start-1 lg:col-start-4 text-black lg:self-center">
+            <h1 class="font-playfairDisplay font-bold text-[67px] italic">
+                our
+            </h1>
+        </div>
+        <div class="h-0 lg:row-start-2 lg:col-start-3 text-black self-center">
+            <h1 class="font-playfairDisplay font-bold text-[67px]">
+                Gallery
+            </h1>
+        </div>
+        <div class="h-0 lg:row-start-2 lg:col-start-5 gap-5 text-black">
+            <button class="lg:row-start-1 font-bold py-3 px-5 font-lato outline outline-black outline-2 rounded-xl hover:bg-black hover:text-white hover:duration-500">
+                <a href="" class="">CHECK MORE</a>
+            </button>
+        </div>
+        <!-- End Content in Grid -->
+        <!-- Image Grid Gallery -->
+        <div class="h-0 lg:h-[340px] aspect-[4/5] bg-black rounded-3xl overflow-hidden group relative hover:scale-105 hover:drop-shadow-xl transition-all duration-500">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/about/about02.jpg?updatedAt=1715066268673')] bg-cover bg-no-repeat bg-center grayscale group absolute hover:grayscale-0 hover:scale-105 hover:rotate-2 tansition-all duration-500"></div>
+        </div>
+        <div class="h-0 lg:h-[340px] aspect-[4/5] bg-black rounded-3xl overflow-hidden group relative hover:scale-105 hover:drop-shadow-xl transition-all duration-500">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/about/hand.jpg?updatedAt=1715066268843')] bg-cover bg-no-repeat bg-center grayscale group absolute hover:grayscale-0 hover:scale-105 hover:rotate-3 tansition-all duration-500"></div>
+        </div>
+        <div class="h-0 lg:h-[340px] aspect-[4/5] bg-black rounded-3xl overflow-hidden group relative hover:scale-105 hover:drop-shadow-xl transition-all duration-500">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl5.jpg?updatedAt=1715066327298')] bg-cover bg-no-repeat bg-center grayscale group absolute hover:grayscale-0 hover:scale-105 hover:rotate-3 tansition-all duration-500"></div>
+        </div>
+        <div class="h-0 lg:h-[340px] aspect-[4/5] bg-black rounded-3xl overflow-hidden group relative hover:scale-105 hover:drop-shadow-xl transition-all duration-500">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl10.JPG?updatedAt=1715066324191')] bg-cover bg-no-repeat bg-center grayscale group absolute hover:grayscale-0 hover:scale-105 hover:rotate-3 tansition-all duration-500"></div>
+        </div>
+        <div class="h-0 lg:h-[340px] aspect-[4/5] bg-black rounded-3xl overflow-hidden group relative hover:scale-105 hover:drop-shadow-xl transition-all duration-500">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl4.jpg?updatedAt=1715066323900')] bg-cover bg-no-repeat bg-center grayscale group absolute hover:grayscale-0 hover:scale-105 hover:rotate-3 tansition-all duration-500"></div>
+        </div>
+        <div class="h-0 lg:h-[340px] aspect-[4/5] bg-black rounded-3xl overflow-hidden group relative hover:scale-105 hover:drop-shadow-xl transition-all duration-500">
+            <div class="h-full w-full bg-[url('https://ik.imagekit.io/viantastory/gallery/gl6.jpg?updatedAt=1715066327233')] bg-cover bg-no-repeat bg-center grayscale group absolute hover:grayscale-0 hover:scale-105 hover:rotate-3 tansition-all duration-500"></div>
+        </div>
+        <!-- End Image Grid Gallery -->
+    </div>
+    <!-- End Responsive -->
+</section>
+<!-- End Gallery -->
 <script src="https://cdn.jsdelivr.net/npm/pagedone@1.1.2/src/js/pagedone.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
