@@ -2,21 +2,25 @@
 
 ---
 
-Version: 0.2.3.1 Main
+Version: 0.3.0.0 Main
 
-Unrelease: V 0.2.3.5 (@responsive)
+Unrelease: V 0.3.0.0
 
 ---
-#### Version 0.2.3.6
+
+#### Version 0.3.0.0
+
+Big Update:
+
+- Mengganti Main ke ResetHere
 
 Responsive:
 
-- Add Responsive `gallery`
-- Add stack & Carousle on `gallery`
+- Add Responsive `page/gallery.html`
 
-Eror :
+Release :
 
-- ~~Responsive on `Gallery`~~
+- Publish to Main
 
 Upcoming:
 
@@ -24,8 +28,8 @@ Upcoming:
 - Article Home Page `public/page/article/Article.html
 - Add audio autoplay
 
-> Repository branch @resposive Update #15 commit [0441d30](https://github.com/vianismee/viantastory.github.io/commit/0441d3000c195402ceec4950cc7b2ff2b6da7649)
-> Kamis, 09/05/2024 -- @vianismee
+> Repository branch @ResetHere Update #15 commit [8c9d241](https://github.com/vianismee/viantastory.github.io/commit/8c9d24192555d06632339db15609946e8c51acfc)
+> Jumat, 09/05/2024 -- @deviceKantor
 
 ---
 
@@ -45,7 +49,7 @@ Upcoming:
 - Article Home Page `public/page/article/Article.html
 - Add audio autoplay
 
-> Repository branch @resposive Update #14 commit [0441d30](https://github.com/vianismee/viantastory.github.io/commit/0441d3000c195402ceec4950cc7b2ff2b6da7649)
+> Repository branch @resposive Update #14 commit [8c9d241](https://github.com/vianismee/viantastory.github.io/commit/8c9d24192555d06632339db15609946e8c51acfc)
 > Rabu, 08/05/2024 -- @deviceKantor
 
 ---
