@@ -845,6 +845,10 @@ html {
   aspect-ratio: 3/4;
 }
 
+.aspect-\[3\/5\] {
+  aspect-ratio: 3/5;
+}
+
 .aspect-\[4\/3\] {
   aspect-ratio: 4/3;
 }
@@ -867,18 +871,6 @@ html {
 
 .aspect-video {
   aspect-ratio: 16 / 9;
-}
-
-.aspect-\[3\/5\] {
-  aspect-ratio: 3/5;
-}
-
-.aspect-\[5\/3\] {
-  aspect-ratio: 5/3;
-}
-
-.aspect-\[square\] {
-  aspect-ratio: square;
 }
 
 .h-0 {
@@ -978,11 +970,6 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-90 {
-  --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .scale-75 {
   --tw-scale-x: .75;
   --tw-scale-y: .75;
@@ -997,24 +984,9 @@ html {
   cursor: pointer;
 }
 
-.columns-3xs {
-  -moz-columns: 16rem;
-       columns: 16rem;
-}
-
 .columns-5 {
   -moz-columns: 5;
        columns: 5;
-}
-
-.columns-xl {
-  -moz-columns: 36rem;
-       columns: 36rem;
-}
-
-.columns-lg {
-  -moz-columns: 32rem;
-       columns: 32rem;
 }
 
 .columns-sm {
@@ -1279,6 +1251,14 @@ html {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl10.JPG?updatedAt=1715066324191');
 }
 
+.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl11\.JPG\?updatedAt\=1715066324602\'\)\] {
+  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl11.JPG?updatedAt=1715066324602');
+}
+
+.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl2\.jpg\?updatedAt\=1715066324161\'\)\] {
+  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl2.jpg?updatedAt=1715066324161');
+}
+
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl4\.jpg\?updatedAt\=1715066323900\'\)\] {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl4.jpg?updatedAt=1715066323900');
 }
@@ -1291,24 +1271,16 @@ html {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl6.jpg?updatedAt=1715066327233');
 }
 
-.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl9\.JPG\?updatedAt\=1715066328665\'\)\] {
-  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl9.JPG?updatedAt=1715066328665');
-}
-
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl7\.jpg\?updatedAt\=1715066328636\'\)\] {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl7.jpg?updatedAt=1715066328636');
-}
-
-.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl11\.JPG\?updatedAt\=1715066324602\'\)\] {
-  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl11.JPG?updatedAt=1715066324602');
 }
 
 .bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl8\.JPG\?updatedAt\=1715066327443\'\)\] {
   background-image: url('https://ik.imagekit.io/viantastory/gallery/gl8.JPG?updatedAt=1715066327443');
 }
 
-.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl2\.jpg\?updatedAt\=1715066324161\'\)\] {
-  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl2.jpg?updatedAt=1715066324161');
+.bg-\[url\(\'https\:\/\/ik\.imagekit\.io\/viantastory\/gallery\/gl9\.JPG\?updatedAt\=1715066328665\'\)\] {
+  background-image: url('https://ik.imagekit.io/viantastory/gallery/gl9.JPG?updatedAt=1715066328665');
 }
 
 .bg-cover {
@@ -3189,20 +3161,20 @@ html:has(.drawer-toggle:checked) {
     height: 500px;
   }
 
-  .lg\:h-screen {
-    height: 100vh;
-  }
-
   .lg\:h-\[50px\] {
     height: 50px;
   }
 
-  .lg\:w-full {
-    width: 100%;
+  .lg\:h-screen {
+    height: 100vh;
   }
 
   .lg\:w-\[50px\] {
     width: 50px;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:-translate-y-10 {
@@ -3222,12 +3194,6 @@ html:has(.drawer-toggle:checked) {
 
   .lg\:translate-y-10 {
     --tw-translate-y: 2.5rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:scale-125 {
-    --tw-scale-x: 1.25;
-    --tw-scale-y: 1.25;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
@@ -3303,22 +3269,14 @@ html:has(.drawer-toggle:checked) {
     padding: 2.25rem;
   }
 
-  .lg\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .lg\:p-24 {
-    padding: 6rem;
+  .lg\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
 
   .lg\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
-  }
-
-  .lg\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
   }
 
   .lg\:pt-32 {
